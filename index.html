@@ -5,18 +5,71 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Minha primeira página - Pâmella</title>
+    <link 
+        rel="icon" 
+        href="commputericon.png"
+        type ="image.png"/>
 </head>
 <body>
-    <h3> esse site é o que ficou juntando meus estudos sobre os tópicos abordados nos vídeos 1 a 4 da playlist</h1>
-    <h3> formas de quebrar linhas e suas características:</h3>
-    <h4> 1. separando cada linha em um parágrafo p</h4>
-        <p><strong>parágrafo</strong> blabla (aqui fica o texto do parágrafo)</p>
-        <p>outro parágrafo</p> 
-        <p> *percebe-se que deixou um espaçamento específico de parágrafos</p>
-    <h4> 2. usando a tag br</h4>
-    uma linha <br>
-    outra linha <br> 
-    *aqui não deixou espaçamento entre as linhas como se usasse o parágrafo
-    <p><strong>próxima aula: tags para alterar tamanhos de fonte (acho que vai ser o h1, etc)</strong></p>
-</body>
+    <h1>Bem vindo à minha página, aqui pratico meus aprendizados</h1>
+    <h2> Sou uma das Novas Titans, pode me chamar de Pâm, sou eu que vou te guiar durante essa jornada.</h2>
+    <h3> O site decorrente dos meus estudos da playlist de HTML Essencial e conteúdos posteriores, gradativamente, com início em agosto de 2022.</h1>
+    <h4> Atuais conteúdos: </h4>
+    <ul>
+        <li>Títulos e quebras de linha</li> (vídeo 5)
+        <li>Listas</li> (vídeo 6)
+        <li>Imagens e atributos HTML</li> (vídeo 7)
+        <li>Âncoras e Links</li> (vídeo 8)
+    </ul>
+
+    <a href="#titulos" title="Vá para essa parte do texto" >
+        Títulos e quebras de linhas</a>
+        <br>
+    <a href="#imagens" title="Vá para essa parte do texto">
+        Imagens e atributoa HTML</a>
+        <br>
+    <a href="#listas" title="Vá para essa parte do texto">
+       Listas</a>
+        <br>
+    <a href="#ancoras" title="Vá para essa parte do texto">
+        Âncoras e links</a>
+    
+    <h3 id="titulos">Títulos e quebras de linhas</h3>
+    <p><Strong>Sobre: </Strong> Os títulos servem para dinamizar a leitura do texto grifando e mostrando as partes mais importantes de forma visual. <br> Já as quebras de linha auxiliam nessa função e também na organização de ideias.</p>
+    <h3 id="listas">Listas</h3>
+    <p><Strong>Sobre: </Strong>Servem para criar listas na página e são tags agregadas, pois, 
+        por exemplo, o ul precisa de pelo menos um li dentro dele pra se apresentar certinho.</p>
+    <p><Strong>Tipos: </Strong> 
+        <ul>
+            <li> ul: lista não ordenada </li>
+            <li> ol: lista ordenada (1, 2, 3,...)</li>
+        </ul>
+    </p>
+    <h3 id="imagens">Imagens e atributos HTML</h3>
+    <img src="commputericon.png" alt="Logomarca do meu site sem especificidade por enquanto." width = 50px>
+    <p><Strong>Sobre: </Strong>As tags de imagens servem para adicionar mídia no site, atuando junto das tags de vídeo e áudio, por exemplo.</p>
+    <p><Strong>Como adicionar no site (passo a passo): </Strong>
+        <ol>
+            <li><Strong>Adiciona a tag img</Strong></li>
+            <li> <Strong>Adiciona os atributos que você precisa... </Strong>
+                <ul><li>QUAL imagem quer colocar, onde ela tá</li>
+                <li>Qual o TAMANHO da imagem</li> Usa-se o width (largura), se ajustar a largura ele automaticamente altera a altura (que seria o "height") proporcionalmente (e vice-versa).
+                <li>Qual texto deverá aparecer se a imagem não o fizer e, mais importante, para facilitar os leitores de tela para portadores de deficiência visual.</li>
+            </ul>
+            </li>
+            <li><Strong>Prontinho, tá aí sua tag, agora vai lá testar se deu certo!</Strong></li>
+        </ol>
+    </p>
+    <p><Strong>Sobre atributos: </Strong> Os atributos especificam características das tags. <br>
+    A sua anatomia consiste basicamente na tag, no nome e no valor do atributo.</p>
+    <h3 id="ancoras">Âncoras e links</h3>
+    <p><Strong>Sobre: </Strong>É muito útil pra trazer praticidade no acesso do conteúdo da página pelo usuário/cliente.</p>
+    
+    <p>Dica extra: se usar o atributo target="_blank" na a href, vai abrir uma nova guia para o link.</p>
+    
+    <p>Foi bom te ver aqui, volte sempre!</p>
+    
+    <img src="https://i.pinimg.com/564x/de/4b/87/de4b87df8e9a01d1b6fc85f04b857987.jpg" height=220px>
+    </body>
 </html>
+

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Pâm</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+    <h2>Agora vamos falar de:</h2>
+    <ul>
+        <li><a href="formulario">Formulário</a></li>
+        <li><a href="arquivos">Textarea e Arquivos</a></li>
+        <a href="">Site do projeto final</a>
+    </ul>
+    <h3 id="formulario">Formulário - Questionário aleatório</h3>
+ 
+    <form>
+        <label>Seu nome: </label>
+        <input type ="text" placeholder="Digite seu nome aqui"/>
+        <br/> <br/> 
+        <label>Informe sua profissão:</label>
+        <select>
+            <option>Programador</option>
+            <option>Designer</option>
+            <option>SysAdmin</option>
+            <option>Arquiteto de Software</option>
+        </select>
+        <br/> <br/> 
+        <label>Quais frutas você gosta?</label>
+        <br>
+        <input type="checkbox">
+        <label>Maçã</label>
+        <br>
+        <input type="checkbox">
+        <label>Pêra</label>
+        <br>
+        <input type="checkbox">
+        <label>Uva</label>
+        <br>
+        <input type="checkbox">
+        <label>Abacaxi</label>
+        <br/> <br/> 
+        <label>Em que turno você quer estudar:</label>
+        <br>
+        <input type="radio" name="turno">
+        <label>Manhã</label>
+        <br>
+        <input type="radio" name="turno">
+        <label>Tarde</label>
+        <br>
+        <input type="radio" name="turno">
+        <label>Noite</label>
+        <br/> <br/> 
+        <button>Salvar dados</button>
+    </form>
+
+    <h3 id="arquivos">Textarea e arquivos</h3>
+    <p> <Strong>O Textarea</Strong> é uma área de texto que você pode digitar com quebra de linha.
+        <br>
+        E o <Strong>input type file</Strong> é um input onde você seleciona um arquivo da máquina pra mandar pra processar.
+    </p>
+    <h3>Segundo formulário - Cadastro de notícias</h3>
+    <form>
+        <p>
+           <label for="titulo">Título</label> <br>
+        <input id ="titulo" value="Valor" type="text" placeholder="Informe o título"> <br> 
+        </p>
+        <p>
+            <label for="corpo">Corpo da Notícia</label> <br>
+            <textarea id="corpo" rows="10" cols="30">Valor</textarea>
+        </p>
+        <p>
+            <label for="imagem">Imagem da capa</label>
+            <input id="imagem" type="file">
+        </p>
+        <p>
+            <input id="status" type="checkbox">
+            <label for="status">Notícia está pública/ativa?</label>
+        </p>
+        
+    </form>
+
+</body>
+</html>
